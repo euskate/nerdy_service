@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NerdyApp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NerdyAppDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="xSkinButton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StcMemdc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CNerdyMainDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NerdyApp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NerdyAppDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="xSkinButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CNerdyMainDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NerdyApp.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NerdyApp.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NerdyApp.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\intro_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\login_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\intro2_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\next_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\next_norm.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\skeep_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\skeep_norm.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\main_back.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\brn_04_nor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_01_nor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_02_nor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_03_nor.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_01_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_02_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_03_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\btn_04_down.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
